@@ -34,9 +34,6 @@ bool HelloWorld::init()
     gameLayer = Layer::create();
     addChild(gameLayer);
 
-    // camera
-    setupCamera();
-
     // player
     setupPlayer();
 
@@ -51,9 +48,12 @@ bool HelloWorld::init()
     // setupForeground();
 
     // auto map = FastTMXTiledMap::create("maps/orthogonal-test1.tmx");
-    auto map = FastTMXTiledMap::create("maps/map1.tmx");
+    auto map = FastTMXTiledMap::create("maps/map1/map.tmx");
     gameLayer->addChild(map, 0, 0);
     map->setScale(1.00f);
+
+    // camera
+    setupCamera();
 
     // schedule update
     scheduleUpdate();

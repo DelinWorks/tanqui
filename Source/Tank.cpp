@@ -42,17 +42,6 @@ bool Tank::init()
 
 void Tank::updateAll(float dt)
 {
-    // Sprite::update(dt);
-
-    if (rotateSide == 1)
-    {
-        rotate(getRotation() - 60 * dt);
-    }
-    else if (rotateSide == 2)
-    {
-        rotate(getRotation() + 60 * dt);
-    }
-
     if (moveDirection == 1)
     {
         moveForward(dt);
@@ -60,6 +49,14 @@ void Tank::updateAll(float dt)
     else if (moveDirection == 2)
     {
         moveBackward(dt);
+    }
+    else if (rotateSide == 1)
+    {
+        rotate(getRotation() - 60 * dt);
+    }
+    else if (rotateSide == 2)
+    {
+        rotate(getRotation() + 60 * dt);
     }
 }
 
@@ -82,18 +79,14 @@ void Tank::rotate(float angle)
 
 void Tank::moveForward(float dt)
 {
-    // Define a direção básica: movimento para cima
-    Vec2 direction(0, 1); // Mover para cima independentemente do ângulo
-
+    Vec2 direction(0, 1);
     Vec2 force = direction * velocity;
     this->getPhysicsBody()->applyImpulse(force);
 }
 
 void Tank::moveBackward(float dt)
 {
-    // Define a direção básica: movimento para baixo
-    Vec2 direction(0, -1); // Mover para baixo independentemente do ângulo
-
+    Vec2 direction(0, -1);
     Vec2 force = direction * velocity;
     this->getPhysicsBody()->applyImpulse(force);
 }

@@ -47,11 +47,16 @@ bool HelloWorld::init()
     // touch
     setupControls();
 
-    // schedule update
-    scheduleUpdate();
-
     // foreground
     // setupForeground();
+
+    // auto map = FastTMXTiledMap::create("maps/orthogonal-test1.tmx");
+    auto map = FastTMXTiledMap::create("maps/map1.tmx");
+    gameLayer->addChild(map, 0, 0);
+    map->setScale(1.00f);
+
+    // schedule update
+    scheduleUpdate();
 
     return true;
 
@@ -218,7 +223,7 @@ void HelloWorld::setupBackground()
 void HelloWorld::setupPlayer()
 {
     player = Tank::createTank("tanks");
-    gameLayer->addChild(player);
+    gameLayer->addChild(player, 100);
     player->setPosition(100, 100);
 }
 
@@ -227,7 +232,7 @@ void HelloWorld::setupCamera()
     gameCamera = Camera::create();
     gameCamera->setPosition3D(Vec3(0, 0, 860));
     gameCamera->lookAt(Vec3(0, 0, 0), Vec3(0, 1, 0));
-    gameLayer->addChild(gameCamera);
+    gameLayer->addChild(gameCamera, 1000);
 }
 
 void HelloWorld::setupControls()
@@ -258,8 +263,7 @@ void HelloWorld::onKeyPressed(EventKeyboard::KeyCode keyCode, Event *event)
     {
         player->setMoveDirection(2);
     }
-
-    if (keyCode == EventKeyboard::KeyCode::KEY_A)
+    else if (keyCode == EventKeyboard::KeyCode::KEY_A)
     {
         player->setRotateSide(1);
     }
@@ -274,18 +278,21 @@ void HelloWorld::onKeyReleased(EventKeyboard::KeyCode keyCode, Event *event)
     if (keyCode == EventKeyboard::KeyCode::KEY_W)
     {
         player->stopMoving();
+        player->stopRotatingSide();
     }
     else if (keyCode == EventKeyboard::KeyCode::KEY_S)
     {
         player->stopMoving();
+        player->stopRotatingSide();
     }
-
-    if (keyCode == EventKeyboard::KeyCode::KEY_A)
+    else if (keyCode == EventKeyboard::KeyCode::KEY_A)
     {
+        player->stopMoving();
         player->stopRotatingSide();
     }
     else if (keyCode == EventKeyboard::KeyCode::KEY_D)
     {
+        player->stopMoving();
         player->stopRotatingSide();
     }
 }

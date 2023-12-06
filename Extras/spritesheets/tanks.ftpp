@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/Users/paulo/Developer/workspaces/cpp/tanks/Content/spritesheets",
+  "images": [
+    {
+      "name": "barrelBeige.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelBeige.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelBeige_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelBeige_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelBlack.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelBlack.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelBlack_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelBlack_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelBlue.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelBlue.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelBlue_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelBlue_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelGreen.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelGreen.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelGreen_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelGreen_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelRed.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelRed.png",
+      "folder": ""
+    },
+    {
+      "name": "barrelRed_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/barrelRed_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "tankBeige.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankBeige.png",
+      "folder": ""
+    },
+    {
+      "name": "tankBeige_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankBeige_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "tankBlack.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankBlack.png",
+      "folder": ""
+    },
+    {
+      "name": "tankBlack_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankBlack_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "tankBlue.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankBlue.png",
+      "folder": ""
+    },
+    {
+      "name": "tankBlue_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankBlue_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "tankGreen.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankGreen.png",
+      "folder": ""
+    },
+    {
+      "name": "tankGreen_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankGreen_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "tankRed.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankRed.png",
+      "folder": ""
+    },
+    {
+      "name": "tankRed_outline.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tankRed_outline.png",
+      "folder": ""
+    },
+    {
+      "name": "tracksLarge.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tracksLarge.png",
+      "folder": ""
+    },
+    {
+      "name": "tracksSmall.png",
+      "path": "/Users/paulo/Downloads/Kenney_topdownTanks/PNG/Tanks/tracksSmall.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "tanks",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "cocos2d",
+    "fileName": "pack-result",
+    "savePath": "/Users/paulo/Developer/workspaces/cpp/tanks/Content/spritesheets",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/Users/paulo/Developer/workspaces/cpp/tanks/Content/spritesheets",
+  "images": [
+    {
+      "name": "Top-Down Forest Tileset_Ground 01.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 01.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 02.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 02.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 03.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 03.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 04.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 04.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 05.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 05.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 06.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 06.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 07.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 07.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 08.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 08.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 09.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 09.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 10.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 10.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 11.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 11.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 12.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 12.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 13.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 13.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 14.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 14.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 15.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 15.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 16.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 16.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 17.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 17.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 18.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 18.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 19.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 19.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 20.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 20.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 21.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 21.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 22.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 22.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 23.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 23.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 24.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 24.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 25.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 25.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 26.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 26.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 27.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 27.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 28.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 28.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 29.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 29.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 30.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 30.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 31.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 31.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 32.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 32.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 33.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 33.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 34.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 34.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 35.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 35.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 36.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 36.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 37.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 37.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 38.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 38.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 39.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 39.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 40.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 40.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 41.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 41.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 42.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 42.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 43.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 43.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 44.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 44.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 45.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 45.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 46.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 46.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 47.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 47.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 48.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 48.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 49.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 49.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 50.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 50.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 51.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 51.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 52.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 52.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 53.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 53.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 54.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 54.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 55.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 55.png",
+      "folder": ""
+    },
+    {
+      "name": "Top-Down Forest Tileset_Ground 56.png",
+      "path": "/Users/paulo/Downloads/craftpix-738821-forest-top-down-2d-game-tileset/PNG/Ground Tiles/Top-Down Forest Tileset_Ground 56.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "map",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "cocos2d",
+    "fileName": "pack-result",
+    "savePath": "/Users/paulo/Developer/workspaces/cpp/tanks/Content/spritesheets",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

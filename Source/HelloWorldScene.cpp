@@ -230,7 +230,7 @@ void HelloWorld::setupPlayer()
 void HelloWorld::setupCamera()
 {
     gameCamera = Camera::create();
-    gameCamera->setPosition3D(Vec3(0, 0, 860));
+    gameCamera->setPosition3D(Vec3(0, 0, 900));
     gameCamera->lookAt(Vec3(0, 0, 0), Vec3(0, 1, 0));
     gameLayer->addChild(gameCamera, 1000);
 }
@@ -341,11 +341,11 @@ void HelloWorld::update(float delta)
 
         // Uso de interpolação linear para movimento suave da câmera
         float lerpFactor = 0.6f;
-        Vec3 smoothedPosition = Vec3(
+        Vec3 smoothedPosition = Vec3{
             currentCameraPosition.x + (targetCameraPosition.x - currentCameraPosition.x) * lerpFactor,
             currentCameraPosition.y + (targetCameraPosition.y - currentCameraPosition.y) * lerpFactor,
-            currentCameraPosition.z // Mantém a posição Z constante
-        );
+            currentCameraPosition.z,
+        };
 
         gameCamera->setPosition3D(smoothedPosition);
 

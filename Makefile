@@ -18,7 +18,7 @@ help:
 	@echo ""
 
 format:
-	clang-format -style file -i Source/**/*
+	clang-format -style file -i Source/**
 
 build-ios:
 	rm -rf build_ios_arm64/

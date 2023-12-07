@@ -199,6 +199,7 @@ void HelloWorld::setupPhysics()
 {
     // world
     getPhysicsWorld()->setGravity(Vec2(0, 0));
+    getPhysicsWorld()->setSlopBias(0, 0);
     // getPhysicsWorld()->setAutoStep(true);
     // getPhysicsWorld()->setUpdateRate(1.0f / 60);
     // getPhysicsWorld()->setFixedUpdateRate(60);

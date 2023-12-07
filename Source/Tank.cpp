@@ -7,13 +7,17 @@ Tank *Tank::createTank(const std::string &filename)
     cache->addSpriteFramesWithFile("spritesheets/" + filename + ".plist", "spritesheets/" + filename + ".png");
 
     auto spriteFrame = SpriteFrameCache::getInstance()->getSpriteFrameByName("tankRed_outline.png");
-    Tank *tank = static_cast<Tank *>(Tank::createWithSpriteFrame(spriteFrame)); // new (std::nothrow) Tank();
+    Tank *tank = static_cast<Tank *>(Tank::createWithSpriteFrame(spriteFrame));
 
     if (tank && spriteFrame)
     {
-        auto physicsBody = PhysicsBody::createBox(tank->getContentSize(), PhysicsMaterial(1.0f, 0.0f, 0.3f));
+        auto physicsBody = PhysicsBody::createBox(tank->getContentSize(), PhysicsMaterial(1.0f, 0.1f, 1.0f));
         physicsBody->setDynamic(true);
         physicsBody->setMass(1.0f);
+        physicsBody->setCategoryBitmask(0x01);
+        physicsBody->setCollisionBitmask(0x02);
+        physicsBody->setGravityEnable(false);
+        physicsBody->setRotationEnable(false);
         tank->addComponent(physicsBody);
 
         tank->setVelocity(12);
@@ -68,27 +72,32 @@ void Tank::setVelocity(float velocity)
 void Tank::rotate(float angle)
 {
     if (angle > 360.0f)
+    {
         angle -= 360.0f;
-    if (angle < 0.0f)
-        angle += 360.0f;
+    }
 
-    AXLOG("ANGULO: %f", angle);
+    if (angle < 0.0f)
+    {
+        angle += 360.0f;
+    }
 
     this->setRotation(angle);
 }
 
 void Tank::moveForward(float dt)
 {
-    Vec2 direction(0, 1);
-    Vec2 force = direction * velocity;
-    this->getPhysicsBody()->applyImpulse(force);
+    float angleRadians = AX_DEGREES_TO_RADIANS(getRotation());
+    Vec2 direction = Vec2(sin(angleRadians), cos(angleRadians));
+    direction.normalize();
+    this->getPhysicsBody()->setVelocity(direction * velocity);
 }
 
 void Tank::moveBackward(float dt)
 {
-    Vec2 direction(0, -1);
-    Vec2 force = direction * velocity;
-    this->getPhysicsBody()->applyImpulse(force);
+    float angleRadians = AX_DEGREES_TO_RADIANS(getRotation());
+    Vec2 direction = Vec2(sin(angleRadians), cos(angleRadians));
+    direction.normalize();
+    this->getPhysicsBody()->setVelocity(direction * -velocity);
 }
 
 void Tank::stopRotatingSide()
@@ -99,5 +108,6 @@ void Tank::stopRotatingSide()
 void Tank::stopMoving()
 {
     moveDirection = 0;
+    rotateSide = 0;
     this->getPhysicsBody()->setVelocity(Vec2::ZERO);
 }

@@ -35,7 +35,7 @@
 USING_NS_AX;
 
 #if defined(AX_TARGET_OS_TVOS)
-static ax::Size designResolutionSize = ax::Size(2048, 1536);
+static ax::Size designResolutionSize = ax::Size(1920, 1080);
 static ax::Size smallResolutionSize = ax::Size(480, 320);
 static ax::Size mediumResolutionSize = ax::Size(1024, 768);
 static ax::Size largeResolutionSize = ax::Size(2048, 1536);

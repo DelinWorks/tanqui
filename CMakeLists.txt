@@ -200,7 +200,7 @@ if(APPLE)
     endif()
 
     # For code-signing, set the DEVELOPMENT_TEAM:
-    #set_xcode_property(${APP_NAME} DEVELOPMENT_TEAM "GRLXXXX2K9")
+    set_xcode_property(${APP_NAME} DEVELOPMENT_TEAM "99AHAA343Q")
 elseif(WINDOWS)
     if(NOT _AX_USE_PREBUILT)
         ax_sync_target_dlls(${APP_NAME})

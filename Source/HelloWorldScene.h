@@ -66,11 +66,14 @@ private:
     void setupCamera();
     void setupBackground();
     void setupControls();
+    void setupMap();
     void onKeyPressed(EventKeyboard::KeyCode keyCode, Event *event);
     void onKeyReleased(EventKeyboard::KeyCode keyCode, Event *event);
     void onControllerButtonDown(Controller *controller, int keyCode, Event *event);
     void onControllerButtonUp(Controller *controller, int keyCode, Event *event);
     void menuCloseCallback(Ref *sender);
+    void onControllerAxis(Controller *controller, int keyCode, Event *event);
+    bool onPhysicsContact(PhysicsContact &contact);
 };
 
 #endif // __HELLOWORLD_SCENE_H__

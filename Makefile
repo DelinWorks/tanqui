@@ -10,15 +10,21 @@ help:
 	@echo ""
 	@echo "- help"
 	@echo "- format"
+	@echo "- clean"
+	@echo ""
 	@echo "- build-ios"
 	@echo "- build-tvos"
 	@echo "- build-macos"
+	@echo ""
 	@echo "- deploy-ios"
 	@echo "- deploy-tvos"
 	@echo ""
 
 format:
 	clang-format -style file -i Source/**
+
+clean:
+	rm -rf build_*
 
 build-ios:
 	rm -rf build_ios_arm64/
